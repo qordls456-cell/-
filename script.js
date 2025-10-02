@@ -12,7 +12,7 @@ const resetBtn = document.getElementById('resetBtn');
 function startStop() {
     if (!running) {
         startTime = new Date().getTime();
-        tInterval = setInterval(getShowTime, 1);
+        tInterval = setInterval(getShowTime, 1000);
         running = true;
         startStopBtn.innerHTML = "Stop";
         startStopBtn.style.backgroundColor = "#dc3545";

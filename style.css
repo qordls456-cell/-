@@ -7,7 +7,7 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-.stopwatch {
+#stopwatch-container {
     text-align: center;
     background-color: #fff;
     padding: 20px;
